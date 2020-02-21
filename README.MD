@@ -109,7 +109,7 @@ namespace Samples
 
 Here is the output:
 
-![image01](./samples/assets/image01.png)
+![image01](https://github.com/jack1232/PayPalSubscription/blob/master/Samples/assets/image01.png)
 
 ### Create a Plan
 
@@ -221,7 +221,7 @@ namespace Samples
 
 Here is the output:
 
-![image01](./samples/assets/image02.png)
+![image01](https://github.com/jack1232/PayPalSubscription/blob/master/Samples/assets/image02.png)
 
 Note that you can associate multiple plans to a product. For example, a video streaming service can have several plans: 
 trial, basic, standard, and premium.
@@ -320,7 +320,7 @@ namespace Samples
 ```
 Here is the output:
 
-![image01](./samples/assets/image03.png)
+![image01](https://github.com/jack1232/PayPalSubscription/blob/master/Samples/assets/image03.png)
 
 To redirect the buyer to log in to their PayPal account to approve the subscription, use the HATEOAS link from the response.
 
