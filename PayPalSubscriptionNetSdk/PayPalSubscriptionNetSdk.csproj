@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Jack Xu</Authors>
+    <Company>Gincker.com</Company>
+    <PackageId>PayPalSubscriptionNetSdk</PackageId>
+    <Description>.NET SDK for PayPal Subscription REST API. This SDK allows you to easily integrate PayPal Subscriptions API into your .NET and .NET Core applications.</Description>
+    <Copyright>2020, Jack Xu</Copyright>
+    <PackageTags>PayPal Subscriptions, .NET SDK, REST API</PackageTags>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageLicenseFile>LICENSE.MD</PackageLicenseFile>
+    <PackageProjectUrl>https://gtincker.com</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/jack1232/PayPalSubscription</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="RestSharp" Version="106.10.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\PayPalSubscription\LICENSE.MD">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
