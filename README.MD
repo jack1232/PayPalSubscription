@@ -51,7 +51,7 @@ public class SetupSubscriptionClient
 
 The client method, __SetupSubscriptionClient.client()__, needs only to be called once at 
 your application startup. In my recent published book 
-__[Practical PayPal Integration in ASP.NET Core](https://www.amazon.com/exec/obidos/ASIN/1695895576/unicadinccom-20)__, 
+__[Practical PayPal Integration in ASP.NET Core](https://www.amazon.com/exec/obidos/ASIN/B0851L8KJF/unicadinccom-20)__, 
 I explained how to use the dependency injection and/or service locator to set up this client in the __Startup.cs__ file of the ASP.NET Core
 Razor-Pages application.
 
@@ -337,7 +337,7 @@ subscription experience.
 ## Step-By-Step Tutorial
 
 Recently, I published a book 
-__[Practical PayPal Integration in ASP.NET Core](https://www.amazon.com/exec/obidos/ASIN/1695895576/unicadinccom-20)__,
+__[Practical PayPal Integration in ASP.NET Core](https://www.amazon.com/exec/obidos/ASIN/B0851L8KJF/unicadinccom-20)__,
 which provides a step-by-step introduction to integrating
 PayPal Checkout and Subscription REST APIs into ASP.NET Core applications. It covers the following topics:
 
