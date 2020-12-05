@@ -36,7 +36,7 @@ namespace PayPalSubscriptionNetSdk.Subscriptions
         [JsonProperty("application_context")]
         public ApplicationContext ApplicationContext { get; set; }
 
-[JsonProperty("billing_info")]
-public BillingInfo BillingInfo { get; set; }
+        [JsonProperty("billing_info")]
+        public BillingInfo BillingInfo { get; set; }
     }
 }
