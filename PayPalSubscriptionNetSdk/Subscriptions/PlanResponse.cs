@@ -63,12 +63,12 @@ namespace PayPalSubscriptionNetSdk.Subscriptions
             return response;
         }
 
-        public static IRestResponse PlanPricingUpdate(string planId, List<PricingScheme> pricingSchemes)
+        public static IRestResponse PlanPricingUpdate(string planId, UpdatePricingRequest updatePricingRequest)
         {
             var client = RestClientV1.client("/v1/billing/plans/" + planId + "/update-pricing-schemes");
             var request = new RestRequest(Method.POST);
             request.AddHeader("Content-Type", "application/json");
-            request.AddJsonBody(pricingSchemes);
+            request.AddJsonBody(updatePricingRequest);
             IRestResponse response = client.Execute(request);
             return response;
         }
