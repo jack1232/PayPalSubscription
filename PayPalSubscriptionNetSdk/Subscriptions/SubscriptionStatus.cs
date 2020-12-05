@@ -6,7 +6,7 @@
         APPROVED,
         ACTIVE,
         SUSPENDED,
-        CANCELED, 
+        CANCELLED, 
         EXPIRED
     }
 }
